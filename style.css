@@ -927,7 +927,7 @@ h4 {
         width: 100%;
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: rgba(138, 128, 128, 0.08);
     }
     .dropdown .dropdown a .caret {
         float: none;
@@ -1023,12 +1023,6 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
@@ -1037,9 +1031,9 @@ h4 {
 }
 
 .imgResponsive {
-    width: 100%;
+    min-width: 100%;
 }
 
 *:focus-visible{
-    outline: 2px solid #F3976C !important
+    outline: 2px solid #b16d4e !important
 }
